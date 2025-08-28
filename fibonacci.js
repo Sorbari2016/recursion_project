@@ -29,7 +29,7 @@ function fibs(number) {
   return output;
 }
 
-console.log(fibs(8)); 
+
 
 // Recursive version
 function fibsRec(number) {
@@ -52,4 +52,5 @@ console.log("This was printed recursively");
   return [...prev, nextNumber];       
 }
 
-console.log(fibsRec(8)); 
+
+export {fibs, fibsRec}
